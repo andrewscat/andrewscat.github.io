@@ -2,6 +2,7 @@ baseURL = "http://andrii.bilor.us/"
 languageCode = "en-us"
 title = "Andrii Bilorus"
 theme = "hugo-redlounge" 
+publishDir = "docs"
 
 [params]
 	 sidebartitle = "Andrii Bilorus"
