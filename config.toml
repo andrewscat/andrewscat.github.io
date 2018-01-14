@@ -1,0 +1,30 @@
+baseURL = "http://andrii.bilor.us/"
+languageCode = "en-us"
+title = "Andrii Bilorus"
+theme = "hugo-redlounge" 
+
+[params]
+	 sidebartitle = "Andrii Bilorus"
+	 sidebartagline = "Talk is cheap, show me the code"
+#	 sidebarphoto = "/img/photo.png"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+
+[[menu.main]]
+    name = "Notes"
+    url = "/posts"
+
+[[menu.social]]
+  	pre = "<i class='fa fa-twitter'></i>"
+    url = "http://www.twitter.com/shift8creative"
+    identifier = "twitter"
+
+[[menu.social]]
+  	pre = "<i class='fa fa-github'></i>"
+    url = "http://www.github.com/andrewscat"
+    identifier = "github"
+
+
+
