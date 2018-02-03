@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://andrii.bilor.us/notes/my_journey_with_fedora/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://andrii.bilor.us/about/</loc>
+  </url>
+  
+  <url>
     <loc>http://andrii.bilor.us/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13,11 +23,8 @@
   </url>
   
   <url>
-    <loc>http://andrii.bilor.us/notes/my_journey_with_fedora_the_begining/</loc>
-  </url>
-  
-  <url>
     <loc>http://andrii.bilor.us/notes/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
