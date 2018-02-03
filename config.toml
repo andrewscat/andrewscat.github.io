@@ -6,26 +6,30 @@ publishDir = "docs"
 
 [params]
 	 sidebartitle = "Andrii Bilorus"
-	 sidebartagline = "Talk is cheap, show me the code"
+	 sidebartagline = "Trust me, I'm an engineer."
 #	 sidebarphoto = "/img/photo.png"
+     aboutpage = true
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "/about/"
 
 [[menu.main]]
     name = "Notes"
-    url = "/posts"
+    url = "/notes/"
 
 [[menu.social]]
   	pre = "<i class='fa fa-twitter'></i>"
-    url = "http://www.twitter.com/shift8creative"
+    url = "https://www.twitter.com/andriibilorus"
     identifier = "twitter"
 
 [[menu.social]]
   	pre = "<i class='fa fa-github'></i>"
-    url = "http://www.github.com/andrewscat"
+    url = "https://www.github.com/andrewscat"
     identifier = "github"
 
-
+[[menu.social]]
+  	pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://www.linkedin.com/in/andrii-bilorus-92491065/"
+    identifier = "linkedin"
 

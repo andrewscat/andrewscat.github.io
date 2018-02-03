@@ -4,6 +4,11 @@ body:after {
   display: none;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .lightboxOverlay {
   position: absolute;
   top: 0;
