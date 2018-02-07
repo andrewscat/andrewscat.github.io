@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on Andrii Bilorus</title>
-    <link>http://andrii.bilor.us/notes/</link>
-    <description>Recent content in Notes on Andrii Bilorus</description>
+    <title>Intel on Andrii Bilorus</title>
+    <link>http://andrii.bilor.us/tags/intel/</link>
+    <description>Recent content in Intel on Andrii Bilorus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andrii.bilor.us/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://andrii.bilor.us/tags/intel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>I am a happy owner of Inetl NUC computer. Recently I installed Fedora on it (right after I tested it as a VM). It was minimal installation. After I had logged in, I noticed that wireless network interface was unavailable. Quite wierd, taking into account that it worked fine during the installation process.
 I looked around, device was connected:
 # lspci ... 3a:00.0 Network controller: Intel Corporation Wireless 8265 / 8275 (rev 78) .</description>
-    </item>
-    
-    <item>
-      <title>My journey with Fedora. The begining.</title>
-      <link>http://andrii.bilor.us/notes/my_journey_with_fedora/</link>
-      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://andrii.bilor.us/notes/my_journey_with_fedora/</guid>
-      <description>Let me start with saying that I have been an ubuntu guy. Back in 2008 I met ubuntu first time, since than I have used different linux operating systems. In 2014 I switched to deb-based distros on my desktop. For some reason every time I tried redhat-like OS, the venture failed. Every time some crap happened. In addition, I don’t really like neither the current fedora artwork nor its fonts.</description>
     </item>
     
   </channel>

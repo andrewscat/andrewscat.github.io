@@ -6,9 +6,64 @@
     <description>Recent content in Tags on Andrii Bilorus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://andrii.bilor.us/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fedora</title>
+      <link>http://andrii.bilor.us/tags/fedora/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>http://andrii.bilor.us/tags/intel/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://andrii.bilor.us/tags/linux/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuc</title>
+      <link>http://andrii.bilor.us/tags/nuc/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/nuc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wifi</title>
+      <link>http://andrii.bilor.us/tags/wifi/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireless</title>
+      <link>http://andrii.bilor.us/tags/wireless/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/wireless/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
