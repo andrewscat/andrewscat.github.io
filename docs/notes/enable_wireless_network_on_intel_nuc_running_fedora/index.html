@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Enable wireless network on Intel NUC running Fedora Linux // Andrii Bilorus
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.30.2" />
+
+  <meta property="og:title" content="Enable wireless network on Intel NUC running Fedora Linux" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://andrii.bilor.us/notes/enable_wireless_network_on_intel_nuc_running_fedora/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://andrii.bilor.us//css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Andrii Bilorus" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+
+    <h1 class="brand-title">Andrii Bilorus</h1>
+    <h2 class="brand-tagline">Trust me, I&#39;m an engineer.</h2>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://andrii.bilor.us/">Home</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/about/">About</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/notes/">Notes</a></li>
+        
+      </ul>
+    </nav>
+
+    
+    
+      
+        
+        <a href="https://www.github.com/andrewscat" target="_blank"><i class='fa fa-github'></i></a>
+        
+      
+        
+        <a href="https://www.linkedin.com/in/andrii-bilorus-92491065/" target="_blank"><i class='fa fa-linkedin'></i></a>
+        
+      
+        
+        <a href="https://www.twitter.com/andriibilorus" target="_blank"><i class='fa fa-twitter'></i></a>
+        
+      
+      
+      
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/notes/enable_wireless_network_on_intel_nuc_running_fedora/">Enable wireless network on Intel NUC running Fedora Linux</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>7</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Feb</span> <span class="post-date-year">2018</span>
+            	</span>
+            	
+            
+            	
+            
+
+			
+			
+
+			
+
+			
+
+            <p>I am a happy owner of Inetl NUC computer. Recently I installed Fedora on it (right after <a href="/notes/my_journey_with_fedora/">I tested it as a VM</a>). It was minimal installation. After I had logged in, I noticed that wireless network interface was unavailable. Quite wierd, taking into account that it worked fine during the installation process.</p>
+
+<p>I looked around, device was connected:</p>
+
+<pre><code># lspci
+...
+3a:00.0 Network controller: Intel Corporation Wireless 8265 / 8275 (rev 78)
+...
+</code></pre>
+
+<p>But no wireless interfaces found</p>
+
+<pre><code># modprobe iwlwifi
+# ifconfig  -a
+eno1: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;  mtu 1500
+        inet 192.168.0.103  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::3730:ac97:2a6a:55a7  prefixlen 64  scopeid 0x20&lt;link&gt;
+        ether f4:4d:30:6d:f9:6e  txqueuelen 1000  (Ethernet)
+        RX packets 62642  bytes 90956956 (86.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 27661  bytes 2276244 (2.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xdc300000-dc320000
+lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10&lt;host&gt;
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</code></pre>
+
+<p>What&rsquo;s in logs:</p>
+
+<pre><code># dmesg | grep iwlwifi
+[    2.935615] iwlwifi 0000:3a:00.0: enabling device (0000 -&gt; 0002)
+[    2.942945] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-34.ucode failed with error -2
+[    2.942956] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-33.ucode failed with error -2
+[    2.942963] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-32.ucode failed with error -2
+[    2.942970] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-31.ucode failed with error -2
+[    2.942977] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-30.ucode failed with error -2
+[    2.942984] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-29.ucode failed with error -2
+[    2.942990] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-28.ucode failed with error -2
+[    2.942998] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-27.ucode failed with error -2
+[    2.943015] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-26.ucode failed with error -2
+[    2.943021] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-25.ucode failed with error -2
+[    2.943028] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-24.ucode failed with error -2
+[    2.943036] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-23.ucode failed with error -2
+[    2.943042] iwlwifi 0000:3a:00.0: Direct firmware load for iwlwifi-8265-22.ucode failed with error -2
+[    2.943043] iwlwifi 0000:3a:00.0: no suitable firmware found!
+[    2.943063] iwlwifi 0000:3a:00.0: minimum version required: iwlwifi-8265-22
+[    2.943095] iwlwifi 0000:3a:00.0: maximum version supported: iwlwifi-8265-34
+[    2.943111] iwlwifi 0000:3a:00.0: check git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+</code></pre>
+
+<p>Aha! No firmware! Honestly, I thought, it was going to be installed, since it was working during installation. However no big deal to install in right now</p>
+
+<pre><code># dnf install iwl7260-firmware
+</code></pre>
+
+<pre><code># modprobe -r iwlwifi # remove module
+# modprobe iwlwifi
+# ifconfig -a
+eno1: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;  mtu 1500
+        inet 192.168.0.103  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::3730:ac97:2a6a:55a7  prefixlen 64  scopeid 0x20&lt;link&gt;
+        ether f4:4d:30:6d:f9:6e  txqueuelen 1000  (Ethernet)
+        RX packets 68319  bytes 98239380 (93.6 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 30508  bytes 2914398 (2.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xdc300000-dc320000
+lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10&lt;host&gt;
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+wlp58s0: flags=4098&lt;BROADCAST,MULTICAST&gt;  mtu 1500
+        ether f8:63:3f:37:a3:e3  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+</code></pre>
+
+<p>Cool! It works! Let&rsquo;s connect to the wireless network with <code>nmcli</code>. But first things firgst, make sure that NetworkManager wifi plugin installed</p>
+
+<pre><code># dnf install NetworkManager-wifi
+</code></pre>
+
+<p>Connect to the wifi network</p>
+
+<pre><code># ifconfig wlp58s0 up
+# nmcli dev set wlp58s0 managed yes
+# nmcli device wifi connect &lt;SSID|BSSID&gt; password &lt;password&gt;
+</code></pre>
+
+<p>I remember the time when configuring wi-fi on Linux was like a chalange. You never know what you&rsquo;ll face and I could hardly get it work. But things are changing, currently make Linux work with wireless network seems like a walk in the park with your dog. I like seeing how this world is changing and it is definitely going in right direction.</p>
+
+	
+			
+
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-fedora" href="http://andrii.bilor.us//tags/fedora">fedora</a>,
+	                
+	                <a class="post-tag post-tag-linux" href="http://andrii.bilor.us//tags/linux">linux</a>,
+	                
+	                <a class="post-tag post-tag-nuc" href="http://andrii.bilor.us//tags/nuc">nuc</a>,
+	                
+	                <a class="post-tag post-tag-intel" href="http://andrii.bilor.us//tags/intel">intel</a>,
+	                
+	                <a class="post-tag post-tag-wireless" href="http://andrii.bilor.us//tags/wireless">wireless</a>,
+	                
+	                <a class="post-tag post-tag-wifi" href="http://andrii.bilor.us//tags/wifi">wifi</a>,
+	                
+				</div>
+			
+
+			
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+		</ul>
+	</div>
+
+	<p>&copy; 2018. All rights reserved.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>

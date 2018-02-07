@@ -26,3 +26,10 @@ Once installation was done, I took a snapshot. At this point I wished I had an a
 
 ![Fedora installed](/img/my_journey_with_fedora/fedora_installed.png)
 
+## Part 3. Configuring
+
+Packages that I installed
+
+- net-tools (I am used to ifconfig)
+- micro (I decided to try something but vim)
+- pciutils (I was surprised that it wasn't here)
