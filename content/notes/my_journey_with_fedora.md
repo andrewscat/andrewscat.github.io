@@ -10,9 +10,13 @@ Let me start with saying that I have been an ubuntu guy. Back in 2008 I met ubun
 ## Part 1. Download and install
 
 I started on getfedora.com, there are three options: server, workstation, and atomic. I want a tiny virtual machine without GUI, so I was in some doubt about which one to choose. After a short meditation I picked workstation one. 
-I noticed there was an utility “Fedora Media Write for Mac OS X”, I downloaded it as well. It turned out a java application, that didn’t work. Probably because of some security limitations, I don’t know, I didn’t troubleshoot.
+I noticed there was an utility “Fedora Media Write for Mac OS X”, I downloaded it as well. It turned out a cool utility. I tried to create an instalation flash, boot my Intel NUC, and I faced no problem. I even used it for Ubuntu, and it worked just fine. I went further and I tried it for Windows bootable flash. This thime I failed. Anyway I left the utilty.
 
-![Fedora media writer](/img/my_journey_with_fedora/fedora_media_writer.png)
+![Fedora media writer](/img/my_journey_with_fedora/media_writer_1.png)
+
+![Fedora media writer](/img/my_journey_with_fedora/media_writer_2.png)
+
+![Fedora media writer](/img/my_journey_with_fedora/media_writer_3.png)
 
 Long story short, installing fedora didn’t take a lot of time. Easy peasy, nothing unusual. In a couple of minutes I got fedora installed. What I didn’t like about anaconda, the fedora installer, is that it didn't have text-based mode. I had used it before but I didn’t find a way to use it now. 
 
