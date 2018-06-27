@@ -182,44 +182,6 @@ Long story short after long period of using fedora/ubuntu I decided to find out 
                 <header class="post-header">
                     
                     <h1 class="post-title">
-                      <a href="/notes/install_jenkins_in_gke/">Run jenkins in GKE cluster</a>
-                  </h1>
-              </header>
-              <p class="post-meta">
-                  
-                  <span class="post-date">
-                    <span class="post-date-day"><sup>3</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Mar</span> <span class="post-date-year">2018</span>
-                </span>
-                
-                
-                    
-                
-                
-                
-            </p>
-            
-              <p>helm install &ndash;name jenkins stable/jenkins &ndash;set Master.Memory=&ldquo;640Mi&rdquo; &ndash;set Cpu=&ldquo;100&rdquo; &ndash;set Master.ServicePort=8080 &ndash;set Master.TLS.secretName=jenkins-tls &ndash;set Master.TLS.hosts=&ldquo;{jenkins.cluster.local}&rdquo; &ndash;set Master.HostName=jenkins.bilor.us</p>
-
-<p>apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: jenkins
-spec:
-  tls:
-  - secretName: jenkins-tls
-  backend:
-    serviceName: jenkins
-    servicePort: 8080</p>
-
-            
-          </section>
-          
-          
-            
-            <section  class="post">
-                <header class="post-header">
-                    
-                    <h1 class="post-title">
                       <a href="/notes/enable_wireless_network_on_intel_nuc_running_fedora/">Enable wireless network on Intel NUC running Fedora Linux</a>
                   </h1>
               </header>

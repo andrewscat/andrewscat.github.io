@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>http://andrii.bilor.us/notes/install_jenkins_in_gke/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://andrii.bilor.us/notes/enable_wireless_network_on_intel_nuc_running_fedora/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
   </url>
@@ -49,26 +44,8 @@
   </url>
   
   <url>
-    <loc>http://andrii.bilor.us/tags/gke/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://andrii.bilor.us/tags/intel/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://andrii.bilor.us/tags/jenkins/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://andrii.bilor.us/tags/kubernetes/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

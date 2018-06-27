@@ -31,16 +31,6 @@ Long story short after long period of using fedora/ubuntu I decided to find out 
     </item>
     
     <item>
-      <title>Run jenkins in GKE cluster</title>
-      <link>http://andrii.bilor.us/notes/install_jenkins_in_gke/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://andrii.bilor.us/notes/install_jenkins_in_gke/</guid>
-      <description>helm install &amp;ndash;name jenkins stable/jenkins &amp;ndash;set Master.Memory=&amp;ldquo;640Mi&amp;rdquo; &amp;ndash;set Cpu=&amp;ldquo;100&amp;rdquo; &amp;ndash;set Master.ServicePort=8080 &amp;ndash;set Master.TLS.secretName=jenkins-tls &amp;ndash;set Master.TLS.hosts=&amp;ldquo;{jenkins.cluster.local}&amp;rdquo; &amp;ndash;set Master.HostName=jenkins.bilor.us
-apiVersion: extensions/v1beta1 kind: Ingress metadata: name: jenkins spec: tls: - secretName: jenkins-tls backend: serviceName: jenkins servicePort: 8080</description>
-    </item>
-    
-    <item>
       <title>Enable wireless network on Intel NUC running Fedora Linux</title>
       <link>http://andrii.bilor.us/notes/enable_wireless_network_on_intel_nuc_running_fedora/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
