@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opensuse on Andrii Bilorus</title>
+    <link>http://andrii.bilor.us/tags/opensuse/</link>
+    <description>Recent content in Opensuse on Andrii Bilorus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://andrii.bilor.us/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The short story about my OpenSUSE installation</title>
+      <link>http://andrii.bilor.us/notes/opensuse_installation/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/notes/opensuse_installation/</guid>
+      <description>Installation I love OpenSUSE, I used it when its version was 9. I remember the beautiful KDE, perfectly working YaST. Or maybe I am just old enough so that all those things seem nice to me.
+Long story short after long period of using fedora/ubuntu I decided to find out how good OpenSUSE is. I took my Intel NUC, put the flash drive with dowloaded image in it, and pressed power button.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,9 @@ title: My journey with Fedora. The begining.
 date: 2018-02-03
 nopaging: true
 noread: true
+tags:
+ - fedora
+ - linux
 ---
 
 Let me start with saying that I have been an ubuntu guy. Back in 2008 I met ubuntu first time, since than I have used different linux operating systems. In 2014 I switched to deb-based distros on my desktop. For some reason every time I tried redhat-like OS, the venture failed. Every time some crap happened. In addition, I don’t really like neither the current fedora artwork nor its fonts. Speaking of fonts, ubuntu has the perfect fonts, I loved them. Eventually I got used to ubuntu and its simplicity. But things are changing, and recently I switched to Mac. Although addiction to linux was so strong that I decided to install linux inside VirtualBox on my Mac and use it from time to time. So I was looking for the linux distro for this purpose, and it looked like a time for trying something new. And I’m going to give fedora a shot.

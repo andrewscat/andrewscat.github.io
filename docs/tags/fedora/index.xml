@@ -22,5 +22,14 @@ I looked around, device was connected:
 # lspci ... 3a:00.0 Network controller: Intel Corporation Wireless 8265 / 8275 (rev 78) .</description>
     </item>
     
+    <item>
+      <title>My journey with Fedora. The begining.</title>
+      <link>http://andrii.bilor.us/notes/my_journey_with_fedora/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/notes/my_journey_with_fedora/</guid>
+      <description>Let me start with saying that I have been an ubuntu guy. Back in 2008 I met ubuntu first time, since than I have used different linux operating systems. In 2014 I switched to deb-based distros on my desktop. For some reason every time I tried redhat-like OS, the venture failed. Every time some crap happened. In addition, I don’t really like neither the current fedora artwork nor its fonts.</description>
+    </item>
+    
   </channel>
 </rss>

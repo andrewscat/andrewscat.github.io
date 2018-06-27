@@ -14,7 +14,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.30.2" />
+<meta name="generator" content="Hugo 0.42.1" />
 
   <meta property="og:title" content="Andrii Bilorus" />
 <meta property="og:description" content="" />
@@ -114,6 +114,107 @@
           <div class="posts">
             
             
+            
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/notes/opensuse_installation/">The short story about my OpenSUSE installation</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>11</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jun</span> <span class="post-date-year">2018</span>
+                </span>
+                
+                
+                    
+                
+                
+                
+            </p>
+            
+              <article class="post-summary">
+                  Installation I love OpenSUSE, I used it when its version was 9. I remember the beautiful KDE, perfectly working YaST. Or maybe I am just old enough so that all those things seem nice to me.
+Long story short after long period of using fedora/ubuntu I decided to find out how good OpenSUSE is. I took my Intel NUC, put the flash drive with dowloaded image in it, and pressed power button.
+              </article>
+              <div class="read-more-link">
+                  <a href="/notes/opensuse_installation/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+            
+          </section>
+          
+          
+            
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/notes/install_kvm_vm/">Create VM in QEMU/KVM environment</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>3</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Mar</span> <span class="post-date-year">2018</span>
+                </span>
+                
+                
+                    
+                
+                
+                
+            </p>
+            
+              <article class="post-summary">
+                  Here I am going to create a VM. Since I&rsquo;ve never tried CentOS 5, I decided to give it a shot. It has the old good sysv init system, it&rsquo;s old, not obsolete. By this examle I will show you how to create and manage QEMU/KVM virtual machine without GUI utilities. First of all create a virtual disk of the desired size. Here for example, we will create a 20 GB disk with the raw disk format: You can also try to use qcow2 format which gives you some additional benefits.
+              </article>
+              <div class="read-more-link">
+                  <a href="/notes/install_kvm_vm/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+            
+          </section>
+          
+          
+            
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/notes/install_jenkins_in_gke/">Run jenkins in GKE cluster</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>3</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Mar</span> <span class="post-date-year">2018</span>
+                </span>
+                
+                
+                    
+                
+                
+                
+            </p>
+            
+              <p>helm install &ndash;name jenkins stable/jenkins &ndash;set Master.Memory=&ldquo;640Mi&rdquo; &ndash;set Cpu=&ldquo;100&rdquo; &ndash;set Master.ServicePort=8080 &ndash;set Master.TLS.secretName=jenkins-tls &ndash;set Master.TLS.hosts=&ldquo;{jenkins.cluster.local}&rdquo; &ndash;set Master.HostName=jenkins.bilor.us</p>
+
+<p>apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: jenkins
+spec:
+  tls:
+  - secretName: jenkins-tls
+  backend:
+    serviceName: jenkins
+    servicePort: 8080</p>
+
+            
+          </section>
+          
+          
             
             <section  class="post">
                 <header class="post-header">

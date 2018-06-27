@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Gke</title>
+      <link>http://andrii.bilor.us/tags/gke/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/gke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Intel</title>
       <link>http://andrii.bilor.us/tags/intel/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
@@ -30,9 +39,36 @@
     </item>
     
     <item>
+      <title>Jenkins</title>
+      <link>http://andrii.bilor.us/tags/jenkins/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>http://andrii.bilor.us/tags/kubernetes/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kvm</title>
+      <link>http://andrii.bilor.us/tags/kvm/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/kvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>http://andrii.bilor.us/tags/linux/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>http://andrii.bilor.us/tags/linux/</guid>
       <description></description>
@@ -44,6 +80,33 @@
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://andrii.bilor.us/tags/nuc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensuse</title>
+      <link>http://andrii.bilor.us/tags/opensuse/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/opensuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qemu</title>
+      <link>http://andrii.bilor.us/tags/qemu/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>http://andrii.bilor.us/tags/vm/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/vm/</guid>
       <description></description>
     </item>
     
@@ -62,6 +125,15 @@
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://andrii.bilor.us/tags/wireless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yast</title>
+      <link>http://andrii.bilor.us/tags/yast/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andrii.bilor.us/tags/yast/</guid>
       <description></description>
     </item>
     
