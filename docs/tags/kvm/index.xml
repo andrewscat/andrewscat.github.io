@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kvm on Andrii Bilorus</title>
-    <link>http://andrii.bilor.us/tags/kvm/</link>
+    <link>https://andrii.bilor.us/tags/kvm/</link>
     <description>Recent content in Kvm on Andrii Bilorus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andrii.bilor.us/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andrii.bilor.us/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create VM in QEMU/KVM environment</title>
-      <link>http://andrii.bilor.us/notes/install_kvm_vm/</link>
+      <link>https://andrii.bilor.us/notes/install_kvm_vm/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/notes/install_kvm_vm/</guid>
+      <guid>https://andrii.bilor.us/notes/install_kvm_vm/</guid>
       <description>Here I am going to create a VM. Since I&amp;rsquo;ve never tried CentOS 5, I decided to give it a shot. It has the old good sysv init system, it&amp;rsquo;s old, not obsolete. By this examle I will show you how to create and manage QEMU/KVM virtual machine without GUI utilities. First of all create a virtual disk of the desired size. Here for example, we will create a 20 GB disk with the raw disk format: You can also try to use qcow2 format which gives you some additional benefits.</description>
     </item>
     

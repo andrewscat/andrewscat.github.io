@@ -1,4 +1,4 @@
-baseURL = "http://andrii.bilor.us/"
+baseURL = "https://andrii.bilor.us/"
 languageCode = "en-us"
 title = "Andrii Bilorus"
 theme = "hugo-redlounge" 

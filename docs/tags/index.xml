@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Andrii Bilorus</title>
-    <link>http://andrii.bilor.us/tags/</link>
+    <link>https://andrii.bilor.us/tags/</link>
     <description>Recent content in Tags on Andrii Bilorus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andrii.bilor.us/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andrii.bilor.us/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora</title>
-      <link>http://andrii.bilor.us/tags/fedora/</link>
+      <link>https://andrii.bilor.us/tags/fedora/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/fedora/</guid>
+      <guid>https://andrii.bilor.us/tags/fedora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intel</title>
-      <link>http://andrii.bilor.us/tags/intel/</link>
+      <link>https://andrii.bilor.us/tags/intel/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/intel/</guid>
+      <guid>https://andrii.bilor.us/tags/intel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kvm</title>
-      <link>http://andrii.bilor.us/tags/kvm/</link>
+      <link>https://andrii.bilor.us/tags/kvm/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/kvm/</guid>
+      <guid>https://andrii.bilor.us/tags/kvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://andrii.bilor.us/tags/linux/</link>
+      <link>https://andrii.bilor.us/tags/linux/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/linux/</guid>
+      <guid>https://andrii.bilor.us/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nuc</title>
-      <link>http://andrii.bilor.us/tags/nuc/</link>
+      <link>https://andrii.bilor.us/tags/nuc/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/nuc/</guid>
+      <guid>https://andrii.bilor.us/tags/nuc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opensuse</title>
-      <link>http://andrii.bilor.us/tags/opensuse/</link>
+      <link>https://andrii.bilor.us/tags/opensuse/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/opensuse/</guid>
+      <guid>https://andrii.bilor.us/tags/opensuse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qemu</title>
-      <link>http://andrii.bilor.us/tags/qemu/</link>
+      <link>https://andrii.bilor.us/tags/qemu/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/qemu/</guid>
+      <guid>https://andrii.bilor.us/tags/qemu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vm</title>
-      <link>http://andrii.bilor.us/tags/vm/</link>
+      <link>https://andrii.bilor.us/tags/vm/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/vm/</guid>
+      <guid>https://andrii.bilor.us/tags/vm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wifi</title>
-      <link>http://andrii.bilor.us/tags/wifi/</link>
+      <link>https://andrii.bilor.us/tags/wifi/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/wifi/</guid>
+      <guid>https://andrii.bilor.us/tags/wifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wireless</title>
-      <link>http://andrii.bilor.us/tags/wireless/</link>
+      <link>https://andrii.bilor.us/tags/wireless/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/wireless/</guid>
+      <guid>https://andrii.bilor.us/tags/wireless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yast</title>
-      <link>http://andrii.bilor.us/tags/yast/</link>
+      <link>https://andrii.bilor.us/tags/yast/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andrii.bilor.us/tags/yast/</guid>
+      <guid>https://andrii.bilor.us/tags/yast/</guid>
       <description></description>
     </item>
     
